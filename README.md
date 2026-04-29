@@ -15,13 +15,13 @@ This is a website desing to show a new Korean band, THe idea is navighate trough
 ├── index.html
 └── README.md
 ```
-# 🚀 How to Run
+# 🚀 How to Run?
 
 1. you can go ahead and dowload or clone the project.
 2. open idex.html in your browser.
 No installation required.
 
-# 🎯 What is Expected
+# 🎯 What is Expected?
 
 You should be able to see the information about this new band and using the listes us button installed in the hero it will guide you to my favorite song from this band, 
 You goign to see more information about the next event of this band in the table we located in the botton of the hero section. 
