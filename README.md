@@ -1,6 +1,6 @@
 # 🎸 Landing Page – Rock Band (HTML & CSS Assessment)
 
-## This is a website desing to show a new Korean band, THe idea is navighate trough some basic HTML and CSS and meet some expectations about the page.
+This is a website desing to show a new Korean band, THe idea is navighate trough some basic HTML and CSS and meet some expectations about the page.
 
 # Project structure:
 ```bash
