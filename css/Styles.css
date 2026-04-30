@@ -59,26 +59,44 @@ li{
     transition: 0.3s ease;
 
 }
+.logo2 {
+    font-size: 3rem;
+    color: var(--text-color);
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
 
-.logo spam{
+}
+
+.logo span{
     color: var(--snd-bg-color);
 }
 
+.logo2 span{
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 3rem;
+}
 .logo:hover {
     transform: scale(1.05);
 }
 
-
-.nav a {
+.nav ul  {
+    display: flex;
+    flex-direction: row;
     font-size: 2.0rem;
-    color: var(--bg-color);
     font-weight: 700;
+    gap: 2rem;
     margin-left: 3rem;
     transition: 0.3s ease;
 }
 
-.nav a:hover,
-.nav a.active {
+.nav ul a {
+    color: var(--bg-color);
+}
+
+.nav li a:hover,
+.nav li a.active {
     color: var(--text-color);
     
 
@@ -153,6 +171,20 @@ li{
 
 /*Table section*/
 
+.events{
+    min-height: 430px;
+    width: 100%;
+    background: var(--snd-bg-color);
+    padding: 60px;
+}
+.events h2{
+    text-align: center;
+    color: var(--main-color);
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+    
+
 table{
     width: 100%;
     border-collapse: collapse;
@@ -183,7 +215,7 @@ table :hover{
 }
 /*About section*/
 
-.About{
+.about{
     display: grid;
     grid-template-columns: 220px 1fr 230px;
     gap: 20px;
@@ -193,6 +225,12 @@ table :hover{
     display: flex;
     padding: 60px;
     min-height: 430px;
+}
+.about-content h2{
+    text-align: center;
+    color: var(--main-color);
+    margin-bottom: 20px;
+    font-weight: 900;
 }
 .about-content {
     display: flex;
@@ -243,15 +281,18 @@ table :hover{
     background: var(--snd-bg-color);
     
 }
-.Gallery h2{
-    text-align: center;
-    color: var(--bg-color);
+.pink{
+text-align: center;
+color: var(--main-color);
+margin-bottom: 20px;
+text-transform: uppercase;
 }
-
+    
 .gallery-images {
     display:grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+    cursor: pointer;
 }
 
 .gallery-images img {
@@ -260,11 +301,13 @@ table :hover{
     object-fit: fill;
     border: 2px solid #333;
 
+
 }
 
 .gallery-images :hover{
     box-shadow: 0 0 2rem var(--main-color);
     transition: initial;
+    transform: scale(1.1);
 }
 /*Footersection*/
 
@@ -294,13 +337,13 @@ footer h3{
     color: var(--bg-color);
     margin-bottom: 10px;
 }
-footer li {
+footer ul li{
     color: var(--bg-color);
     margin-bottom: 10px;
 
 }
 
-.footer ul img{
+.footer ul li img{
     mix-blend-mode: multiply;
 }
 
